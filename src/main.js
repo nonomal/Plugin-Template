@@ -1,6 +1,12 @@
 // 运行在 Electron 主进程 下的插件入口
 
 
+// 创建窗口前触发
+exports.onBrowserWindowCreating = (target, argArray, newTarget) => {
+    // 参数为 Proxy BrowserWindow construct
+}
+
+
 // 创建窗口时触发
 exports.onBrowserWindowCreated = (window) => {
     // window 为 Electron 的 BrowserWindow 实例
