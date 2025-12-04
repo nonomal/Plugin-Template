@@ -124,7 +124,7 @@
       "properties": {
         "repo": {
           "type": "string",
-          "description": "可选，仓库短地址"
+          "description": "必选，仓库短地址"
         },
         "branch": {
           "type": "string",
@@ -151,4 +151,5 @@
       }
     }
   }
+
 }
